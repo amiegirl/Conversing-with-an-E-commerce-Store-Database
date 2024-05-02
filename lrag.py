@@ -7,7 +7,7 @@ from langchain.agents.agent_toolkits.sql.toolkit import SQLDatabaseToolkit
 from langchain_core.prompts import PromptTemplate
 
 # Read the API key
-f = open("keys/.gemini_api_key.txt")
+f = open("keys/gemini_api_key.txt")
 key = f.read()
 
 #  Setup chat model
