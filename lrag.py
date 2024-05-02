@@ -1,5 +1,4 @@
 import streamlit as st
-import streamlit as st
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.agents import AgentType, create_sql_agent
 from langchain.sql_database import SQLDatabase
