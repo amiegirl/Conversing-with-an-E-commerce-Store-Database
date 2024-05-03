@@ -7,8 +7,8 @@ from langchain.agents.agent_toolkits.sql.toolkit import SQLDatabaseToolkit
 from langchain_core.prompts import PromptTemplate
 
 # Read the API key
-f = open("keys/gemini_api_key.txt")
-key = f.read()
+#f = open("keys/gemini_api_key.txt")
+#key = f.read()
 
 #  Setup chat model
 chat_model = ChatGoogleGenerativeAI(google_api_key=key, model="gemini-1.5-pro-latest")
