@@ -54,6 +54,7 @@ with st.sidebar:
         capacity(GB), processor, warranty(years) and display(inch) 
     ''')
     st.write('Made by Aminat Owodunni')
+st.image("laptops.jpeg")
 st.title(":blue[Conversing with an E-commerce Laptop Store Database]")
 question = st.text_area("Enter your query:", placeholder="Enter your query here...", height=100)
 
