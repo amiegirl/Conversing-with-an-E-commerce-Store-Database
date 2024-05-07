@@ -1,5 +1,4 @@
 import streamlit as st
-import streamlit as st
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.agents import AgentType, create_sql_agent
 from langchain.sql_database import SQLDatabase
@@ -15,9 +14,7 @@ chat_model = ChatGoogleGenerativeAI(google_api_key=key, model="gemini-1.5-pro-la
 
 # connect to our database
 db = SQLDatabase.from_uri("sqlite:///laptops.db")
-
-
-# set up chat template
+
 # set up chat template
 prompt = PromptTemplate.from_template(
     """You are a helpful AI assistant expert in querying SQL Database,
