@@ -8,3 +8,4 @@ This app can utilize the power of LLM and is built using:
 
 https://github.com/amiegirl/Conversing-with-an-E-commerce-Store-Database/assets/81017006/b52734ad-c148-4577-9088-d144c36f1a37
 
+[Check it out](https://estorechatbot.streamlit.app/)
